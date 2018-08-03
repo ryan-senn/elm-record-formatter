@@ -2,19 +2,17 @@ module RecordFormatter exposing (toString)
 
 {-| Module to format Elm Records
 
-# Parse a record into a String
+# Parse a Record into a String
 @docs toString
-
-Examples can be found on the dmo hosted on Github Pages: https://ryan-senn.github.io/elm-record-formatter-demo
 
 -}
 
 import String
 
-{-| Parse a record into a String.
+{-| Parse a Record into a String.
 
-This comes in handy when trying to print a record to the screen, especially in a `<pre>` tag.
-Bundled with code highlighting you can print record quite nicely.
+This comes in handy when trying to print a Record to the screen, especially in a `<pre>` tag.
+Bundled with code highlighting you can print Records quite nicely.
 
     RecordFormatter.toString
         { hello = "Good morning Sir, how are we today?"
@@ -23,7 +21,7 @@ Bundled with code highlighting you can print record quite nicely.
     ==
     "{ hello = \"Good morning Sir, how are we today?\"\n, ayy = \"macarena\" \n}"
 
-Also works with deeply nested records, Union types etc.
+Also works with deeply nested Records, Union types etc.
 
     RecordFormatter.toString
         { hello = Just 5
