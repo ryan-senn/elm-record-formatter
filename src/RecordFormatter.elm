@@ -13,7 +13,7 @@ import String
 
 {-| Parse a record into a String.
 
-This comes in handy when trying to print a record to the screen, especially in a <pre> tag.
+This comes in handy when trying to print a record to the screen, especially in a `<pre>` tag.
 Bundled with code highlighting you can print record quite nicely.
 
     RecordFormatter.toString
