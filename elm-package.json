@@ -1,5 +1,5 @@
 {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "summary": "Module to format Elm Records",
     "repository": "https://github.com/ryan-senn/elm-record-formatter.git",
     "license": "BSD3",
